@@ -149,6 +149,9 @@ body{
     height: 100%;
     background: url(/images/IMG_2380copy.png);
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -212,4 +215,14 @@ body{
     font-size: 2vh;
     margin: 0;
     font-weight: 600;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .menu{
+        display: none;
+    }
+    .impossible{
+        display: none;
+    }
 }
