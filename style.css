@@ -98,6 +98,10 @@ body{
 
 /*  */
 
+a{
+    text-decoration: none;
+    color: black;
+}
 .products-classes{
     margin-left: 20px;
     display: flex;
@@ -147,7 +151,7 @@ body{
 .main{
     width: 100%;
     height: 100%;
-    background: url(/images/IMG_2380copy.png);
+    background: url("../images/IMG_2380copy.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -226,3 +230,72 @@ body{
         display: none;
     }
 }
+
+
+/* sneakers */
+
+.sneakers-main{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0e9e9;
+    margin-top: 7px;
+}
+
+.sneakers{
+    width: fit-content;
+    position: relative;
+    max-width: 20%;
+    margin: 30px 20px 0 30px;
+}
+.sneakers:hover{
+    transform: scale(1.2);
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.name-type h1{
+    padding: 1% 4%;
+    font-size: 6.7vh;
+    margin: 0;
+    font-weight: 600;
+}
+.sneakers img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+.sneakers .price{
+    min-width: 12%;
+    text-align: center;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 1%;
+    z-index: 1000;
+    margin: 85% 5px;
+    padding: 3px 10px;
+    background-color: white;
+    border-radius: 40px;
+}
+.sneakers-description{
+    background: transparent;
+}
+.sneakers-description h2{
+    font-size: 2vh;
+    margin: 0;
+    overflow: hidden;
+    font-weight: 600;
+}
+.sneakers-description h5{
+    font-size: 1.5vh;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.sneakers-main{
+    margin-bottom: 20px;
+}
+
+/* footer */
+
